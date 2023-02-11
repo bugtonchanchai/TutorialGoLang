@@ -1,8 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"mygo/pg"
+)
 
 func main() {
-	msg := "Hello, world"
-	fmt.Println(msg)
+	pg.Pg01(false)
+	pg.Pg02(true)
+
+	fmt.Println("exit")
 }
