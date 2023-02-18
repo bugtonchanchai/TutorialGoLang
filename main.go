@@ -8,7 +8,8 @@ import (
 func main() {
 	pg.Pg01(false)
 	pg.Pg02(false)
-	pg.Pg03(true)
+	pg.Pg03(false)
+	pg.Pg04(true)
 
 	fmt.Println("exit")
 }

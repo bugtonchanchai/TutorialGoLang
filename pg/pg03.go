@@ -6,9 +6,9 @@ import (
 	"strings"
 )
 
-type Vertex struct {
-	X int
-	Y int
+type Vertex03 struct {
+	X float64
+	Y float64
 }
 
 var powd = []int{1, 2, 4, 8, 16, 32, 64, 128}
@@ -41,12 +41,12 @@ func Pg03(isActive bool) {
 	fmt.Println(j) // 72
 	fmt.Println(p) // 0xc0000180d0
 
-	fmt.Println(Vertex{1, 2})
-	v := Vertex{1, 2}
+	fmt.Println(Vertex03{1, 2})
+	v := Vertex03{1, 2}
 	v.X = 4
 	fmt.Println(v.X)
 
-	v = Vertex{1, 2}
+	v = Vertex03{1, 2}
 	pa := &v
 	pa.X = 1e9
 	fmt.Println(v)
