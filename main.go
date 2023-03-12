@@ -15,4 +15,6 @@ func main() {
 
 	fmt.Println("exit")
 	fmt.Println("exit")
+	fmt.Println("exit")
+
 }
