@@ -14,7 +14,4 @@ func main() {
 	pg.Pg06(true)
 
 	fmt.Println("exit")
-	fmt.Println("exit")
-	fmt.Println("exit")
-
 }
