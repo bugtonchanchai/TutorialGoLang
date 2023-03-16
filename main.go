@@ -11,7 +11,9 @@ func main() {
 	pg.Pg03(false)
 	pg.Pg04(false)
 	pg.Pg05(false)
-	pg.Pg06(true)
+	pg.Pg06(false)
+	pg.Pg07(true)
 
 	fmt.Println("exit")
+
 }
