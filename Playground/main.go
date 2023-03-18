@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"mygo/pg"
+
+	"github.com/bugtonchanchai/TutorialGoLang/playground/pg"
 )
 
 func main() {
